@@ -1,53 +1,131 @@
 <!DOCTYPE html>
 <html>
   <head>
+  
     <title>cute animals</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <style>
+      body {
+       background-color: #f48642;
+        font-family: 'Oswald', sans-serif;
+      }
+    
+      #puppies{
+       background-color:#f4b942 ; 
+        text-align: center;
+        display: block;
+        width: 600px;
+  
+        
+      
+      }
+      #first-link a {
+       text-decoration: none; 
+        color: red; 
+      }
+        #first-link a:hover {
+         background-color: red;
+          color: #f48642;
+        }
+      
+      #tea-cup-pigs{
+       background-color: #f4b9; 
+        text-align: center;
+      }
+      #baby-seals{
+       background-color: #cfa9e5;
+        text-align: center;
+        display: inline-block;
+        width: 50%;
+       
+      }
+      #second-link a {
+        text-decoration: none;
+        color: #f48642;
+      }
+     #second-link a:hover {
+       background-color: #f48642;
+      c  olor: #f4b9;
+      }
+      h1{
+       text-align: center; 
+      }
+     #puppies-background {
+       background-color:#f4b942 ; 
+      }
+      #baby-seals-background {
+        text-align:right;
+        display:block;
+        width:100%;
+        background-color:#cfa9e5 ; 
+      }
+        
+      #bottom-text{
+       display: block;
+        width: 200px;
+        background-color:green;
+      }
+     
+    </style>
     <link rel="stylesheet" href="/styles.css">
     <script src="/script.js" defer></script>
   </head>
   <body>
+    
     <h1>
-      this will be a lot of cute <a href= "https://en.wikipedia.org/wiki/Animal"> animals</a>
+      this will be a lot of cute  <span id= "first-link" ><a href= "https://en.wikipedia.org/wiki/Animal"> animals</a> </span>
     </h1>
-    <div>
-        <h2>
-       dogs
-    </h2>
-    <p>
-      Dogs are my favorite animal.
-    </p>
-    <img src= https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Fpuppies%20website%20one.png?1518886375289>
-    <p>
-      Look at how cute they are! ;)
-    </p>
+   <div id="puppies-background" >
+     
+  
+      <div id= "puppies">
+          <h2>
+         dogs
+      </h2>
+      <p>
+        Dogs are my favorite animal.
+      </p>
+        <img src= "https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Fpuppies%20website%20one.png?1518886375289">
+
+        <p>
+        Look at how cute they are! ;)
+      </p>
+        </div>
+    
+  </div>
       
-    </div>
- <div>
+    
+ <div id= "tea-cup-pigs">
      <h2>
       tea cup pigs
     </h2>
     <p>
       they're really tiny and really adorable :)
     </p>
-    <img src= https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Ftea%20cup%20pigs%20website%20one.jpg?1518886669227>
+    <img src= "https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Ftea%20cup%20pigs%20website%20one.jpg?1518886669227">
     <p>
-      but they do have to grow up in to <a href= "https://kids.nationalgeographic.com/animals/pig/#pig-young-closeup.jpg"> big pigs </a> at some point but they're cute too
+      but they do have to grow up in to <span id= "second-link"><a href= "https://kids.nationalgeographic.com/animals/pig/#pig-young-closeup.jpg"> big pigs </a></span> at some point but they're cute too
     </p>
     </div>
-   <div>
-     <h2>
-       Baby seals 
-     </h2>
-     <p>
-       One of the cutest baby aniamls in the Antartic (along with baby polar bears)
-     </p>
-     <img src= https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Fbaby%20seals%20first%20website.jfif?1518887533880 width= "50%">
-     <p>
-       They're just so fluffy !!
-     </p>
-     <img src= https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Fit's%20so%20fluffy%20website%20one.jfif?1518887807004 
+    
+    <div id="baby-seals-background">
+      <div id= "baby-seals">
+       <h2>
+         Baby seals 
+       </h2>
+       <p>
+         One of the cutest baby aniamls in the Antartic (along with baby polar bears)
+       </p>
+       <img src= "https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Fbaby%20seals%20first%20website.jfif?1518887533880" width= "50%">
+       <p>
+         They're just so fluffy !!
+       </p>
+       <img src= "https://cdn.glitch.com/7bf36933-8054-42e1-adbc-42aec3773ac3%2Fit's%20so%20fluffy%20website%20one.jfif?1518887807004" width= "45%">  
+      </div>
     </div>
-   
+    
+      
+    
+  
   </body>
 </html>
